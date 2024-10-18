@@ -31,3 +31,4 @@ This application allows users to view map-based content and includes a fake auth
 - **Fake Authentication**: Users can "log in" using hardcoded credentials. This demonstrates authentication without requiring an actual back-end server.
 - **Geolocation and Maps**: Leaflet is integrated to display maps based on user location.
 - **Routing**: Different pages of the application are accessible using React Router.
+- **Pin Locations and Add Notes**: Users can pin locations on the map where they’ve visited, specify the city and date, and add notes about their visit.

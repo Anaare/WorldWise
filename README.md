@@ -2,7 +2,7 @@
 
 A dynamic travel journal web app that lets users pin places they've visited on an interactive map, leave notes, and view geolocation-based data. Built with Vite and React, it features fake authentication, routing, and geolocation with Leaflet maps.
 
-🔗 **Live Demo on Vercel**  
+**Live Demo**  
 [🔗 Live Demo on Vercel](https://world-wise-chi-mauve.vercel.app/)  
 📂 [GitHub Repository](https://github.com/Anaare/WorldWise.git)
 

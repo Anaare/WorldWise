@@ -1,34 +1,76 @@
-# React Vite Project with Context API, Leaflet, and Fake Authentication
+# WorldWise 🗺️
 
-This is a React application built with Vite, implementing core features such as geolocation (using Leaflet), fake authentication (via Context API), and routing. The project is deployed on Netlify.
+A dynamic travel journal web app that lets users pin places they've visited on an interactive map, leave notes, and view geolocation-based data. Built with Vite and React, it features fake authentication, routing, and geolocation with Leaflet maps.
 
-## Netlify
-
-https://worldwise-portfolio-project.netlify.app/
-
----
-
-## Project Overview
-
-This application allows users to view map-based content and includes a fake authentication system. Users can log in using pre-defined credentials and access specific features. Geolocation is handled via the Leaflet library, providing an interactive map view.
+🔗 **Live Demo on Vercel**  
+[🔗 Live Demo on Vercel](https://world-wise-chi-mauve.vercel.app/)  
+📂 [GitHub Repository](https://github.com/Anaare/WorldWise.git)
 
 ---
 
-## Technologies Used
+## ✨ Features
 
-- **Vite** - A fast frontend build tool for React applications.
-- **React** - JavaScript library for building user interfaces.
-- **React Router** - Used for client-side routing.
-- **Context API** - Used for managing global state, specifically for authentication.
-- **Leaflet** - A lightweight, open-source library for interactive maps.
-- **Netlify** - Used for deployment.
-- **ESLint** - For linting the codebase and ensuring consistent coding practices.
+✅ **Authentication**
+
+- Fake login system using hardcoded credentials
+- User context persists login state
+- Protected routes with conditional access
+
+🗺️ **Map with Geolocation**
+
+- Integrated Leaflet.js for interactive map UI
+- Automatically centers map based on user's location
+- Custom pins and markers for user-added locations
+
+📍 **Location Management**
+
+- Add a city, visit date, and notes to pinned locations
+- Clickable map to set new markers
+- Locations saved in local state (no backend)
+
+🧭 **Routing**
+
+- Built with React Router
+- Includes protected routes and nested views
 
 ---
 
-## Features
+## 🛠️ Tech Stack
 
-- **Fake Authentication**: Users can "log in" using hardcoded credentials. This demonstrates authentication without requiring an actual back-end server.
-- **Geolocation and Maps**: Leaflet is integrated to display maps based on user location.
-- **Routing**: Different pages of the application are accessible using React Router.
-- **Pin Locations and Add Notes**: Users can pin locations on the map where they’ve visited, specify the city and date, and add notes about their visit.
+- **Frontend**: React, Vite
+- **Maps**: Leaflet.js
+- **State Management**: React Context API
+- **Routing**: React Router
+- **Linting**: ESLint
+- **Deployment**: Netlify
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Anaare/WorldWise.git
+cd WorldWise
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the development server
+
+```bash
+npm run dev
+```
+
+## 🌍 Usage
+
+- Log in using fake credentials
+- Allow browser access to your location
+- Click on the map to pin a city
+- Add a visit date and notes
+- View all pinned locations and edit notes
